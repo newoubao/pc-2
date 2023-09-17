@@ -1,0 +1,78 @@
+.topicTopBar {
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    width: 100%;
+    background-color: #020101;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99
+}
+
+.topicTopBar .bar {
+    width: 100%;
+    max-width: 13.28rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 1rem
+}
+
+.topicTopBar .bar,
+.topicTopBar .navLeft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.topicTopBar .navLeft {
+    float: left;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 100%;
+    cursor: pointer
+}
+
+.topicTopBar .navLeft .navback {
+    width: .35rem;
+    height: .25rem;
+    margin-right: .2rem
+}
+
+.topicTopBar .navLeft .navlogo {
+    width: 1.9rem;
+    height: 1.1rem
+}
+
+.topicTopBar .navLeft img {
+    margin-left: .9rem;
+    height: 1rem;
+    width: 3.22rem
+}
+
+.topicTopBar.topBarWhileScroll {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 98;
+    -webkit-backdrop-filter: blur(.1rem);
+    backdrop-filter: blur(.1rem);
+    background-color: rgba(2, 1, 1, .8)
+}
+
+.topicTopBar.topBarWhileScroll .header {
+    background-color: transparent
+}

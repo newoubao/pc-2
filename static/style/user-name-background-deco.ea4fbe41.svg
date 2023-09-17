@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="52px" viewBox="0 0 212 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>会员名底色@1x</title>
+    <defs>
+        <linearGradient x1="0%" y1="47.1063991%" x2="93.3647502%" y2="52.4755978%" id="linearGradient-1">
+            <stop stop-color="#7A5656" offset="0%"></stop>
+            <stop stop-color="#0A0A57" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FF5E5E" offset="0%"></stop>
+            <stop stop-color="#FA0000" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0 0 212 0 194.333333 44.6243672 106 51 17.6666667 44.6243672"></polygon>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="盈利榜优化" transform="translate(-663.000000, -155.000000)">
+            <g id="会员名底色" transform="translate(663.000000, 156.000000)">
+                <g id="矩形">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+                <polyline id="路径" stroke-opacity="0.5" stroke="#FFFFFF" fill="#191A1F" opacity="0.252042498" points="206 -1.27897692e-13 189.25 40.8207465 105.5 47 21.75 40.8207465 5 -1.27897692e-13"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

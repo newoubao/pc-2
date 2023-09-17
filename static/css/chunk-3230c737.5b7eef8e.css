@@ -1,0 +1,371 @@
+.backdrop {
+    background: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.backdrop.backdrop2 {
+    background: rgba(10, 11, 12, .5)
+}
+
+.backdrop .popup {
+    background: #fff;
+    border-radius: 8PX;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400PX;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.backdrop .popup .popHead {
+    height: 60PX;
+    text-align: center;
+    line-height: 60PX;
+    position: relative;
+    font-size: 20PX;
+    color: #333;
+    background: #fafafa;
+    border-radius: 8PX 8PX 0 0
+}
+
+.backdrop .popup .popHead .popClose {
+    width: 16PX;
+    height: 16PX;
+    position: absolute;
+    top: 22PX;
+    right: 20PX
+}
+
+.backdrop .popup .popHead .popClose .iconClose {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.backdrop .videoPopUp {
+    width: 8.54rem;
+    height: 4.8rem;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.backdrop .videoPopUp .videoClose {
+    width: .49rem;
+    height: .49rem;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: -.69rem
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.flex-center,
+.flex-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start
+}
+
+.container {
+    width: 100%;
+    padding: .4rem 0 .7rem;
+    background: #15161a
+}
+
+.container .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 400PX;
+    position: relative;
+    z-index: 1;
+    background-image: url(/static/style/banner@3x.f0eee43d.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+    background-color: #191a23
+}
+
+.webpa .container .banner {
+    background-image: url(/static/style/banner@3x.png_.0145488d.webp)
+}
+
+.container .navigation {
+    z-index: 9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: block;
+    background: #1f2026;
+    -webkit-box-shadow: 0 .01rem .03rem 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 .01rem .03rem 0 rgba(0, 0, 0, .2);
+    height: .8rem
+}
+
+.container .navigation ul {
+    list-style: none;
+    width: 100%;
+    height: .8rem
+}
+
+.container .navigation ul,
+.container .navigation ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.container .navigation ul li {
+    padding: 0 .6rem;
+    position: relative;
+    height: 100%
+}
+
+.container .navigation ul li a {
+    font-size: .2rem;
+    color: #777780;
+    line-height: .8rem;
+    height: .8rem;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0
+}
+
+.container .navigation ul li a:after {
+    content: "";
+    background-color: #cca352;
+    width: 0;
+    height: .03rem;
+    position: absolute;
+    left: 2PX;
+    bottom: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border-radius: .02rem
+}
+
+.container .navigation ul li:hover a {
+    color: #cca352
+}
+
+.container .navigation ul li:hover a:after {
+    width: 95%
+}
+
+.container .navigation ul li.active a {
+    color: #fff;
+    font-size: .24rem
+}
+
+.container .navigation ul li.active a:after {
+    width: 95%
+}
+
+.container .section {
+    margin-bottom: 70PX;
+    width: 100%
+}
+
+.container .section h1 {
+    font-size: 46PX;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600
+}
+
+.container .section1 {
+    height: 350PX;
+    padding-top: 95PX;
+    text-align: center
+}
+
+.container .section1 h1 {
+    margin-bottom: 90PX
+}
+
+.container .section1 .list {
+    margin-bottom: 83PX;
+    height: 36PX
+}
+
+.container .section1 .list .item {
+    position: relative;
+    text-align: center;
+    height: 28PX;
+    font-size: .2rem;
+    color: #c5c5c5;
+    letter-spacing: 0;
+    line-height: 24PX;
+    padding: 8PX 56PX;
+    display: inline-block;
+    font-weight: 400
+}
+
+.container .section1 .list .item h2 {
+    height: .26rem;
+    font-size: .26rem;
+    color: #fff;
+    letter-spacing: 0;
+    margin-bottom: 13PX;
+    font-weight: 600
+}
+
+.container .section1 .list .item .line {
+    width: 2PX;
+    height: 36PX;
+    background: #4e5665;
+    position: absolute;
+    right: 0;
+    top: .18rem
+}
+
+.container .section1 .list .item:last-child {
+    border-right: 0
+}
+
+.container .title {
+    margin: 78PX 0 70PX auto;
+    font-family: PingFangSC-Semibold;
+    font-size: .4rem;
+    color: #fff7ef;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600
+}
+
+.container .bottom {
+    float: none;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.container .t {
+    font-family: PingFangSC-Semibold;
+    font-size: .28rem;
+    color: #fff7ef;
+    margin-bottom: 22PX;
+    letter-spacing: 0;
+    font-weight: 600
+}
+
+.container .item-container {
+    height: 190PX;
+    min-height: 190PX;
+    width: 1200PX;
+    margin-bottom: 1.3rem
+}
+
+.container .item-container .item {
+    background: #1f2026;
+    width: 310PX;
+    min-width: 310PX;
+    max-width: 310PX;
+    height: 190PX;
+    margin-right: 20PX;
+    position: relative;
+    border-radius: .08rem
+}
+
+.container .item-container .item .flag {
+    width: 75PX;
+    height: 30PX;
+    background-image: -webkit-gradient(linear, left top, right top, from(#484b62), color-stop(98%, #33334c));
+    background-image: linear-gradient(90deg, #484b62, #33334c 98%);
+    border-radius: 0 8PX 0 8PX;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: .14rem;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .14rem;
+    font-weight: 600
+}
+
+.container .item-container .item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer
+}
+
+.container .item-container .item .row {
+    padding-left: 20PX;
+    font-family: PingFangSC-Semibold;
+    font-size: .18rem;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: .18rem;
+    font-weight: 600;
+    width: 100%;
+    height: 60PX;
+    background: #1f2026;
+    border-radius: 0 0 .08rem .08rem;
+    position: relative
+}
+
+.container .item-container .item .row .video-play {
+    width: 28PX;
+    height: 28PX;
+    position: absolute;
+    right: .2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer
+}
+
+.container .holder {
+    margin-bottom: 50PX
+}

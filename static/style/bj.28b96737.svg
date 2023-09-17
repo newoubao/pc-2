@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="653px" height="392px" viewBox="0 0 653 392" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bj</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="653" height="392" rx="8"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#3E2929" offset="0%"></stop>
+            <stop stop-color="#1F2026" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#29313E" offset="0%"></stop>
+            <stop stop-color="#1F2026" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#2F2D39" offset="0%"></stop>
+            <stop stop-color="#1F2026" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页模块" transform="translate(-750.000000, -83.000000)">
+            <g id="bj" transform="translate(750.000000, 83.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill="#1F2026" xlink:href="#path-1"></use>
+                <rect id="矩形备份" fill="url(#linearGradient-3)" opacity="0.725186303" mask="url(#mask-2)" transform="translate(452.645097, 274.511637) rotate(-315.000000) translate(-452.645097, -274.511637) " x="336.145097" y="-87.9883634" width="233" height="725"></rect>
+                <rect id="矩形备份-2" fill="url(#linearGradient-4)" opacity="0.725186303" mask="url(#mask-2)" transform="translate(-60.354903, 53.511637) rotate(-315.000000) translate(60.354903, -53.511637) " x="-176.854903" y="-308.988363" width="233" height="725"></rect>
+                <rect id="矩形" fill="url(#linearGradient-5)" opacity="0.725186303" mask="url(#mask-2)" transform="translate(578.574029, 294.582704) rotate(-315.000000) translate(-578.574029, -294.582704) " x="462.074029" y="38.0827044" width="233" height="513"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
